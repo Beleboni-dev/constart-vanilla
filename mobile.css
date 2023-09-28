@@ -58,6 +58,9 @@ gap: .6rem;
 .planning-section_card-content {
     padding: 1.5rem 2rem 0;
 }
+.planning-section_cards-wrapper{
+    justify-content: center;
+}
 .card-title{
     font-size: 1.2rem;
 }
@@ -80,4 +83,26 @@ gap: .6rem;
     max-width: 90%;
     padding: 0;
 }
+
+}
+@media(max-width:1260px){
+    #info-card-1-img {
+            display: none;
+        }   
+                .info-card {
+                    min-height: 20rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    text-align: center;
+                }
+        
+                .info-card:nth-child(2) {
+                    max-width: 100%;
+                }
+        
+                .info-card:last-child {
+                    max-width: 100%;
+                }
 }

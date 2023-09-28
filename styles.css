@@ -313,6 +313,72 @@ Sections
   margin: 2rem 0;
   width: 90%;
 }
+
+
+/*Info cards section*/
+#info-cards-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42.9375rem;
+  padding: 4rem 0;
+
+}
+.info-cards_container{
+  max-width: 73.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1.2rem;
+}
+.info-card{
+
+  border-radius: 2.5rem;
+    background-color: #fcfdfd;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 1.5rem 2rem;
+    border: 1px solid var(--brand-secondary);
+}
+.info-card_title{
+  color: var(--brand-primary);
+    font-family: "Raleway", sans-serif;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.info-card_text{
+  color: var(--brand-secondary);
+    font-family: "Raleway",
+      sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.1875rem;
+    margin-top: .5rem;
+    /* 145.833% */
+}
+.info-card:first-child{
+position: relative;
+min-width: 100%;
+}
+.info-card:first-child .info-card_text {
+  max-width: 48.4375rem;
+}
+#info-card-1-img{
+position: absolute;
+top: 1.5rem;
+right: 1.5rem;
+}
+.info-card:nth-child(2) {
+ max-width: 48%;
+}
+
+.info-card:last-child {
+max-width: 48.9%;
+}
+
+
 /*Last Section*/
 #last-section {
   background-color: var(--brand-secondary);
