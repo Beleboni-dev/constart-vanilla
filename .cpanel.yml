@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/consta83/public_html/
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R scripts $DEPLOYPATH
+        - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp mobile.css $DEPLOYPATH
