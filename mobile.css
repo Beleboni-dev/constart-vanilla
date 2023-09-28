@@ -1,0 +1,83 @@
+@media (max-width: 890px) {
+  .first-section-middle-content {
+    justify-content: center;
+  }
+  .first-section__top-button {
+    display: none;
+  }
+  .logo {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem;
+  }
+  .logo img {
+    max-width: 150px;
+  }
+
+.title-and-sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.first-section-container{
+background-image: linear-gradient(111.4deg, rgba(209, 231, 235, 1) 7.4%, rgba(238, 219, 199, 1) 51.4%, rgba(255, 159, 122, 1) 82.6%, rgba(255, 109, 58, 1) 100.2%);
+}
+#logoContainer{
+    display: none;
+}
+.heading-large{
+    font-size: 3rem;
+}
+.subheading-large{
+font-size: 1.5rem;
+}
+
+.form-title{
+    display: none;
+}
+
+
+#simulate-section .subheading-large{
+    font-size: 1.2rem;
+}
+
+.simulate-card{
+    max-width: 16rem;;
+}
+.large-title{
+    font-size: 3rem;
+}
+
+.planning-section_card ol{
+gap: .6rem;
+
+}
+.planning-section_card-content {
+    padding: 1.5rem 2rem 0;
+}
+.card-title{
+    font-size: 1.2rem;
+}
+.last-section_title-and-sub{
+    padding: 1.5rem;
+    text-align: center;
+}
+.medium-title{
+    font-size: 1.3rem;
+}
+.last-section_title-and-sub p {
+    font-size: 1.2rem;
+}
+#footer{
+    justify-content: center;
+    min-height: max-content;
+    padding-bottom: 1.5rem;
+}
+.modal{
+    max-width: 90%;
+    padding: 0;
+}
+}

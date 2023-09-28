@@ -1,0 +1,446 @@
+/* Cores personalizadas */
+:root {
+  --brand-primary: #f36013;
+  --brand-secondary: #34485c;
+  --brand-white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway";
+}
+
+.first-section-middle-content {
+  max-width: 73.75rem;
+  margin: 0 auto;
+  min-height: 43.75rem;
+}
+
+.heading-large {
+  color: var(--brand-secondary);
+  font-family: "Raleway";
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.subheading-large {
+  color: var(--brand-secondary);
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.form-title {
+  color: var(--brand-secondary);
+  font-family: "Raleway";
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: normal;
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Raleway";
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.medium-title {
+  color: var(--brand-white);
+  font-family: "Raleway", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.large-title {
+  color: var(--brand-secondary);
+  font-family: "Raleway";
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: normal;
+}
+
+.card-title {
+  color: var(--brand-secondary);
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: normal;
+}
+
+.card-list {
+  color: var(--brand-secondary);
+  font-family: "Raleway";
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contact-info {
+  color: var(--brand-secondary);
+  font-family: "Raleway";
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.button {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 3.625rem;
+  font-family: "Inter";
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--brand-white);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.button--orange {
+  background-color: var(--brand-primary);
+  margin-top: 1rem;
+}
+
+.card {
+  box-shadow: 4px 6px 20px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 1.25rem;
+}
+.input-common {
+  width: 100%;
+  height: 3.625rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  border: none;
+  outline: none;
+  padding-left: 0.75rem;
+  font-family: "Raleway";
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--brand-secondary);
+  margin-top: 1rem;
+}
+
+/*
+Sections
+*/
+
+/*First Section*/
+.first-section-container {
+  background-image: url("/images/first-bg.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 3rem;
+}
+.first-section-title {
+  max-width: 32rem;
+}
+.first-section-title strong {
+  color: #f36013;
+  font-family: Raleway;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+#first-section .subheading-large {
+  max-width: 20rem;
+}
+#first-section .logo-container {
+  width: max-content;
+}
+#first-section .title-and-sub {
+  margin-top: 3.4375rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.12rem;
+}
+.button-left-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 3rem;
+}
+.first-section__top-button {
+  margin-top: 3.31rem;
+  width: 16.9375rem;
+  background-color: var(--brand-secondary);
+}
+.first-section-middle-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*Form*/
+.form-wrapper form {
+  max-width: 23.1875rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.error-message {
+  color: black;
+  opacity: 1;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+#form-whats-container .form-wrapper form {
+  width: 15rem;
+  padding: 1rem;
+  background-color: var(--brand-white);
+  border-radius: 0.75rem;
+}
+#form-whats-container .form-wrapper input {
+  border: 1px solid rgb(18, 140, 126);
+  height: 2.2rem;
+}
+#form-whats-container .button {
+  background-color: rgb(18, 140, 126);
+  font-size: 1.25rem;
+  color: var(--brand-white);
+  height: 2.2rem;
+  font-weight: normal;
+}
+
+/*Simulate Section*/
+
+.wave-svg {
+  margin-top: 4.125rem;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+#simulate-section h2 {
+  color: #000;
+}
+#simulate-section .title-and-sub {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#simulate-section .title-and-sub p {
+  max-width: 55rem;
+  text-align: center;
+  margin-top: 0.75rem;
+}
+#simulate-section .main-container {
+  padding: 3.69rem .75rem;
+}
+.simulate-card {
+  width: 18.75rem;
+  height: 15.41413rem;
+  background-color: var(--brand-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.simulate-card-wrapper {
+  text-align: center;
+}
+.simulate-card-wrapper h3 {
+  margin-top: 0.7rem;
+}
+.simulate-cards-wrapper {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.simulate-card-title {
+  text-transform: uppercase;
+}
+
+/*Planning Section*/
+#planning-section {
+  background-color: var(--brand-primary);
+  padding: 2.5rem 1rem;
+  margin-top: -1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.planning-section_title {
+  color: var(--brand-white);
+  max-width: 47rem;
+}
+.planning-section_cards-wrapper {
+  display: flex;
+  margin-top: 3.5rem;
+  gap: 3.63rem;
+  flex-wrap: wrap;
+}
+.planning-section_card {
+  border-radius: 2.25rem;
+  background-color: var(--brand-white);
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.planning-section_card-content {
+  padding: 1.5rem 3.5rem 0;
+}
+.planning-section_card ol {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.4375rem;
+}
+.planning-section_card button {
+  border-radius: 1.25rem;
+  background-color: var(--brand-secondary);
+  margin: 2rem 0;
+  width: 90%;
+}
+/*Last Section*/
+#last-section {
+  background-color: var(--brand-secondary);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 36.8125rem;
+}
+.last-section_title-and-sub {
+  width: 29.94494rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.69rem;
+}
+#last-section .subheading-large {
+  color: var(--brand-white);
+}
+
+/*Footer*/
+
+#footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 26.25rem;
+}
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.footer-wrapper span {
+  color: var(--brand-secondary);
+  font-family: Raleway;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#footer svg {
+  width: 28px;
+}
+.social-media-container {
+  display: flex;
+  gap: 1.75rem;
+}
+
+/* Modals */
+.modal {
+  display: none;
+  background-image: url("./images/modal-bg.jpg");
+  background-position: top;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  transform: translate(-50%, -50%);
+  width: max-content;
+  padding: 2.5rem 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.25rem;
+}
+
+.modal button {
+  background-color: var(--brand-secondary);
+}
+.modal h3 {
+  max-width: 90%;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+}
+
+/* Opcional: Estilize o cursor para indicar que é clicável */
+.backdrop:hover {
+  cursor: pointer;
+}
+
+.fab {
+  font-size: 1.75rem;
+}
+
+#logoContainer,
+#form-whats-container {
+  position: fixed;
+  bottom: 2.25rem;
+  right: 2.25rem;
+  cursor: pointer;
+  z-index: 2;
+}
+#form-whats-container{
+  display: none;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.toast {
+  position: absolute;
+  background-color: var(--brand-white);
+  color: var(--brand-secondary);
+  top: -3.5rem;
+  right: 0;
+  padding: 1rem;
+  animation: slideInLeft 0.5s ease-in-out;
+  /* Adicione a animação aqui */
+}
+form{
+  position: relative;
+}
